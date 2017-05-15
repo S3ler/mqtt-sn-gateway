@@ -27,8 +27,8 @@ unknown means: not tested or implemented, and most likely i will not implemented
 untested means: not implemented yet, but most likely to come in the future ( can also provide a implementation for me )
 
 
-## Purchasing and Test Hardware
-Here we describe sources for purchasing hardware and sources for testing the hardware.
+## Purchasing and Test Prototyping Hardware
+Here we describe sources for purchasing prototyping hardware and sources for testing the hardware.
 
 ### ESP8266
 We suggest a **NodeMCU board**, it provides access to all IO Pins of the ESP.
@@ -47,4 +47,6 @@ For programming can use the [Arduino IDE](https://www.arduino.cc/en/main/softwar
 Any Arduino [Ethernet Shield](https://www.arduino.cc/en/Main/ArduinoEthernetShield) (or compatible shield) can be used. Does not matter if V1 (Chip WS5100) or V2 (Chip WS5500).
 Purchase at: [Amazon]( https://www.amazon.de/s/ref=nb_sb_noss_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&url=search-alias%3Dcomputers&field-keywords=Arduino+Ethernet+Shield&rh=n%3A340843031%2Ck%3AArduino+Ethernet+Shield ), [AliExpress]( https://de.aliexpress.com/wholesale?catId=0&initiative_id=SB_20170515135409&SearchText=Arduino+Ethernet+Shield ).
 Do not forget to buy a microSDHC Card if not already done.
+For programming can use the [Arduino IDE](https://www.arduino.cc/en/main/software), or use [platformIO](http://platformio.org/).
 
+### 
