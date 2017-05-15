@@ -49,4 +49,8 @@ Purchase at: [Amazon]( https://www.amazon.de/s/ref=nb_sb_noss_2?__mk_de_DE=%C3%8
 Do not forget to buy a microSDHC Card if not already done.
 For programming can use the [Arduino IDE](https://www.arduino.cc/en/main/software), or use [platformIO](http://platformio.org/).
 
-### 
+### ZigBee
+TODO
+
+### Lora
+TODO
