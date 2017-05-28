@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/bt_classic_rfcomm_test_client.dir/src/testclients/rfcomm-client.cpp.o  -o bt_classic_rfcomm_test_client -lbluetooth 

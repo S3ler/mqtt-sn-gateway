@@ -1,0 +1,115 @@
+
+
+start stop advertising
+AT+GAPSTARTADV
+AT+GAPSTOPADV
+set advertise data
+AT+GAPSETADVDATA
+
+
+ You need to perform a system reset via 'ATZ' before most of the commands below will take effect! 
+
+
+AT+GAPCONNECTABLE=yes
+OK
+
+# Update the device name to 'BLEFriend'
+AT+GAPDEVNAME=BLEFriend
+OK
+ATZ
+OK
+
+# Get a list of all custom GATT services and characteristics on the device
+AT+GATTLIST
+
+# Changes the baud rate used by the HW UART peripheral on the nRF51822.
+AT+BAUDRATE
+1200
+2400
+4800
+9600
+14400
+19200
+28800
+38400
+57600
+76800
+115200
+AT+BAUDRATE=115200
+OK
+
+
+AT+GATTADDCHAR
+ PROPERTIES: The 8-bit characteristic properties field, as defined by the Bluetooth SIG. The following values can be used:
+    0x02 - Read
+    0x04 - Write Without Response
+    0x08 - Write
+    0x10 - Notify
+    0x20 - Indicate
+
+
+### BLE GATT ###
+# Clear any previous custom services/characteristics
+AT+GATTCLEAR
+OK
+# Add a mqtt-sn service (UUID = 0x6275) to the peripheral
+AT+GATTADDSERVICE=UUID=0x6275
+1
+OK
+# Add a mqtt-sn transmit (notify) characteristic (UUID = 0x6202), notify enabled
+# It is use to send mqtt-sn message to the mqtt-sn client
+AT+GATTADDCHAR=UUID=0x6202,PROPERTIES=0x08,MIN_LEN=1,MAX_LEN=20,VALUE=00-00
+1
+OK
+# Add a mqtt-sn receive (read) characteristic (UUID = 0x6203), notify enabled
+# It is use to send mqtt-sn message to the mqtt-sn gateway
+# Notify can be enabled by the gateway so that an alert is raised every time a message is send.
+AT+GATTADDCHAR=UUID=0x6203,PROPERTIES=0x10,MIN_LEN=1,MAX_LEN=20,VALUE=00-00
+2
+OK
+
+
+### BLE GATT >=0.7.0 ###
+# Clear any previous custom services/characteristics
+AT+GATTCLEAR
+OK
+# Add a mqtt-sn service (UUID = 0x6275) to the peripheral
+AT+GATTADDSERVICE=UUID=0x6275
+1
+OK
+# Add a mqtt-sn transmit (notify) characteristic (UUID = 0x6201), notify enabled
+AT+GATTADDCHAR=UUID=0x6201,PROPERTIES=0x10,MIN_LEN=1,MAX_LEN=20,VALUE=00-00,DESCRIPTION=MQTT-SN Transmit,DATATYPE=0x02
+1
+OK
+# Add a mqtt-sn receive (read) characteristic (UUID = 0x6202), notify enabled
+AT+GATTADDCHAR=UUID=0x6202,PROPERTIES=0x02,MIN_LEN=1,MAX_LEN=20,VALUE=00-00,DESCRIPTION=MQTT-SN Receive,DATATYPE=0x02
+2
+OK
+
+### BLE READ ###
+# MQTT-SN client
+# könnte aber auch: 02-02-03 oder sowas ankommen
+AT+GATTCHAR=1
+0x64
+OK
+
+### BLE WRITE ###
+# MQTT-SN gateway
+AT+GATTCHAR=1,01-03-04-05-06
+OK
+
+# Verify the previous write attempt
+AT+GATTCHAR=1
+01-03-04-05-06
+OK
+
+
+
+AT+GATTCHARRAW
+This read only command reads binary (instead of ASCII) data from a characteristic. It is non-printable but has less overhead and is easier when writing libraries in Arduino.
+
+Parameters: The numeric ID of the characteristic to display the data for
+
+Output: Binary data corresponding to the specified characteristic.
+Note: This is a specialized command and no NEWLINE is present at the end of the command!
+

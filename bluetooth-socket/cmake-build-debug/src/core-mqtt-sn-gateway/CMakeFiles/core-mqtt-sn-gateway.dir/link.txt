@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcore-mqtt-sn-gateway.a  CMakeFiles/core-mqtt-sn-gateway.dir/src/CoreImpl.cpp.o CMakeFiles/core-mqtt-sn-gateway.dir/src/Gateway.cpp.o CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttMessageHandlerInterface.cpp.o CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttSnMessageHandler.cpp.o CMakeFiles/core-mqtt-sn-gateway.dir/src/PersistentInterface.cpp.o CMakeFiles/core-mqtt-sn-gateway.dir/src/SocketInterface.cpp.o
+/usr/bin/ranlib libcore-mqtt-sn-gateway.a

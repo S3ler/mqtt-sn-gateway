@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/bt_classic_l2cap_test_server.dir/src/testserver/l2cap-server.cpp.o  -o bt_classic_l2cap_test_server -lbluetooth 

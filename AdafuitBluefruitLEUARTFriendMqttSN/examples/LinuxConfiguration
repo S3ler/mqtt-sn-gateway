@@ -1,0 +1,200 @@
+# Note: source of informations:
+# https://learn.adafruit.com/introducing-adafruit-ble-bluetooth-low-energy-friend/faq
+# https://www.jaredwolff.com/blog/get-started-with-bluetooth-low-energy/
+
+
+# For the beginning restart the device - as safety
+# sudo su
+hciconfig hci0 down
+hciconfig hci0 up
+
+# look for your device with bluetoothctl
+bluetoothctl
+[bluetooth]# scan on
+Discovery started
+[CHG] Controller 00:1A:7D:DA:71:11 Discovering: yes
+[CHG] Device F7:D1:B0:5E:4C:CE RSSI: -67
+[CHG] Device F7:D1:B0:5E:4C:CE Name: Adafruit MQTT-SN Client
+[CHG] Device F7:D1:B0:5E:4C:CE Alias: Adafruit MQTT-SN Client
+[CHG] Device F7:D1:B0:5E:4C:CE RSSI: -59
+[CHG] Device F7:D1:B0:5E:4C:CE RSSI: -69
+[CHG] Device F7:D1:B0:5E:4C:CE RSSI: -61
+[bluetooth]# agent on
+[bluetooth]# connect F7:D1:B0:5E:4C:CE 
+Attempting to connect to F7:D1:B0:5E:4C:CE
+[CHG] Device F7:D1:B0:5E:4C:CE Connected: yes
+Connection successful
+[CHG] Device F7:D1:B0:5E:4C:CE UUIDs: 00001530-1212-efde-1523-785feabcd123
+[CHG] Device F7:D1:B0:5E:4C:CE UUIDs: 00001800-0000-1000-8000-00805f9b34fb
+[CHG] Device F7:D1:B0:5E:4C:CE UUIDs: 00001801-0000-1000-8000-00805f9b34fb
+[CHG] Device F7:D1:B0:5E:4C:CE UUIDs: 0000180a-0000-1000-8000-00805f9b34fb
+[CHG] Device F7:D1:B0:5E:4C:CE UUIDs: 00006275-0000-1000-8000-00805f9b34fb
+[CHG] Device F7:D1:B0:5E:4C:CE UUIDs: 6e400001-b5a3-f393-e0a9-e50e24dcca9e
+# the line - [CHG] Device F7:D1:B0:5E:4C:CE UUIDs: 00006275-0000-1000-8000-00805f9b34fb - is our service
+# exit bluetoothcl
+[Adafruit MQTT-SN Client]# exit
+Agent unregistered
+[DEL] Controller 00:1A:7D:DA:71:11 bele-desktop [default]
+
+# alternative for bluetoothctl
+hcitool lescan
+# if you get this:
+Set scan parameters failed: Input/output error
+# make this:
+systemctl daemon-reload
+service bluetooth restart
+hciconfig hci0 up
+hcitool lescan
+LE Scan ...
+F7:D1:B0:5E:4C:CE (unknown)
+F7:D1:B0:5E:4C:CE Adafruit MQTT-SN Client
+F7:D1:B0:5E:4C:CE (unknown)
+F7:D1:B0:5E:4C:CE (unknown)
+F7:D1:B0:5E:4C:CE Adafruit MQTT-SN Client
+F7:D1:B0:5E:4C:CE (unknown)
+F7:D1:B0:5E:4C:CE (unknown)
+F7:D1:B0:5E:4C:CE Adafruit MQTT-SN Client
+F7:D1:B0:5E:4C:CE (unknown)
+
+#### Reading and Writing of Characteristics ####
+# For reading and writing Bluetooth LE GATT-Services we use gattool
+gatttool -b F7:D1:B0:5E:4C:CE -I -t random --sec-level=high
+
+# connect to Adafruit MQTT-SN Client
+[F7:D1:B0:5E:4C:CE][LE]> connect
+Attempting to connect to F7:D1:B0:5E:4C:CE
+Connection successful
+
+# Scan for primary GATT Services
+[F7:D1:B0:5E:4C:CE][LE]> primary
+attr handle: 0x0001, end grp handle: 0x0007 uuid: 00001800-0000-1000-8000-00805f9b34fb
+attr handle: 0x0008, end grp handle: 0x000b uuid: 00001801-0000-1000-8000-00805f9b34fb
+attr handle: 0x000c, end grp handle: 0x0013 uuid: 00001530-1212-efde-1523-785feabcd123
+attr handle: 0x0014, end grp handle: 0x0020 uuid: 0000180a-0000-1000-8000-00805f9b34fb
+attr handle: 0x0021, end grp handle: 0x0028 uuid: 6e400001-b5a3-f393-e0a9-e50e24dcca9e
+attr handle: 0x0029, end grp handle: 0xffff uuid: 00006275-0000-1000-8000-00805f9b34fb
+ 
+# Get the handles for the entries
+[F7:D1:B0:5E:4C:CE][LE]> char-desc
+handle: 0x0001, uuid: 00002800-0000-1000-8000-00805f9b34fb
+handle: 0x0002, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x0003, uuid: 00002a00-0000-1000-8000-00805f9b34fb
+handle: 0x0004, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x0005, uuid: 00002a01-0000-1000-8000-00805f9b34fb
+handle: 0x0006, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x0007, uuid: 00002a04-0000-1000-8000-00805f9b34fb
+handle: 0x0008, uuid: 00002800-0000-1000-8000-00805f9b34fb
+handle: 0x0009, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x000a, uuid: 00002a05-0000-1000-8000-00805f9b34fb
+handle: 0x000b, uuid: 00002902-0000-1000-8000-00805f9b34fb
+handle: 0x000c, uuid: 00002800-0000-1000-8000-00805f9b34fb
+handle: 0x000d, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x000e, uuid: 00001532-1212-efde-1523-785feabcd123
+handle: 0x000f, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x0010, uuid: 00001531-1212-efde-1523-785feabcd123
+handle: 0x0011, uuid: 00002902-0000-1000-8000-00805f9b34fb
+handle: 0x0012, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x0013, uuid: 00001534-1212-efde-1523-785feabcd123
+handle: 0x0014, uuid: 00002800-0000-1000-8000-00805f9b34fb
+handle: 0x0015, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x0016, uuid: 00002a29-0000-1000-8000-00805f9b34fb
+handle: 0x0017, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x0018, uuid: 00002a24-0000-1000-8000-00805f9b34fb
+handle: 0x0019, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x001a, uuid: 00002a25-0000-1000-8000-00805f9b34fb
+handle: 0x001b, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x001c, uuid: 00002a28-0000-1000-8000-00805f9b34fb
+handle: 0x001d, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x001e, uuid: 00002a26-0000-1000-8000-00805f9b34fb
+handle: 0x001f, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x0020, uuid: 00002a27-0000-1000-8000-00805f9b34fb
+handle: 0x0021, uuid: 00002800-0000-1000-8000-00805f9b34fb
+handle: 0x0022, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x0023, uuid: 6e400003-b5a3-f393-e0a9-e50e24dcca9e
+handle: 0x0024, uuid: 00002901-0000-1000-8000-00805f9b34fb
+handle: 0x0025, uuid: 00002902-0000-1000-8000-00805f9b34fb
+handle: 0x0026, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x0027, uuid: 6e400002-b5a3-f393-e0a9-e50e24dcca9e
+handle: 0x0028, uuid: 00002901-0000-1000-8000-00805f9b34fb
+handle: 0x0029, uuid: 00002800-0000-1000-8000-00805f9b34fb
+handle: 0x002a, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x002b, uuid: 00006202-0000-1000-8000-00805f9b34fb
+handle: 0x002c, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x002d, uuid: 00006203-0000-1000-8000-00805f9b34fb
+handle: 0x002e, uuid: 00002902-0000-1000-8000-00805f9b34fb
+
+# Filter the primary GATT service with 6275
+[F7:D1:B0:5E:4C:CE][LE]> primary 6275
+Starting handle: 0x0029 Ending handle: 0xffff
+# Get only the handles for the primary 6275
+[F7:D1:B0:5E:4C:CE][LE]> char-desc 0x0029 0xffff
+handle: 0x0029, uuid: 00002800-0000-1000-8000-00805f9b34fb
+handle: 0x002a, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x002b, uuid: 00006202-0000-1000-8000-00805f9b34fb
+handle: 0x002c, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x002d, uuid: 00006203-0000-1000-8000-00805f9b34fb
+
+# Note: you cannot read 6203 and cannot write 6202
+
+# read by UUID
+[F7:D1:B0:5E:4C:CE][LE]> char-read-uuid 6202
+handle: 0x002b 	 value: 01 03 04 05 06 
+
+# read by handle
+[F7:D1:B0:5E:4C:CE][LE]> char-read-hnd 0x002b
+Characteristic value/descriptor: 01 03 04 05 06 
+
+# write
+[F7:D1:B0:5E:4C:CE][LE]> char-write-cmd 0x002d 04030201
+
+# write req (TODO: is this via notification? investigate!)
+[F7:D1:B0:5E:4C:CE][LE]> char-write-req 0x002d 04030201
+Characteristic value was written successfully
+
+
+#### Notification and Write without Response of Characteristics ####
+gatttool -b F7:D1:B0:5E:4C:CE -I -t random --sec-level=high
+[F7:D1:B0:5E:4C:CE][LE]> connect
+Attempting to connect to F7:D1:B0:5E:4C:CE
+Connection successful
+[F7:D1:B0:5E:4C:CE][LE]> primary
+attr handle: 0x0001, end grp handle: 0x0007 uuid: 00001800-0000-1000-8000-00805f9b34fb
+attr handle: 0x0008, end grp handle: 0x000b uuid: 00001801-0000-1000-8000-00805f9b34fb
+attr handle: 0x000c, end grp handle: 0x0013 uuid: 00001530-1212-efde-1523-785feabcd123
+attr handle: 0x0014, end grp handle: 0x0020 uuid: 0000180a-0000-1000-8000-00805f9b34fb
+attr handle: 0x0021, end grp handle: 0x0028 uuid: 6e400001-b5a3-f393-e0a9-e50e24dcca9e
+attr handle: 0x0029, end grp handle: 0xffff uuid: 00006275-0000-1000-8000-00805f9b34fb
+[F7:D1:B0:5E:4C:CE][LE]> char-desc 0x0029
+handle: 0x0029, uuid: 00002800-0000-1000-8000-00805f9b34fb
+handle: 0x002a, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x002b, uuid: 00006202-0000-1000-8000-00805f9b34fb
+handle: 0x002c, uuid: 00002902-0000-1000-8000-00805f9b34fb
+handle: 0x002d, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x002e, uuid: 00006203-0000-1000-8000-00805f9b34fb
+
+# that is totally ok - it is write without response
+[F7:D1:B0:5E:4C:CE][LE]> char-read-uuid 6203
+Error: Read characteristics by UUID failed: Attribute can't be read
+# write without reponse does not work
+[F7:D1:B0:5E:4C:CE][LE]> char-write-req 0x002e 0504030201
+Error: Characteristic Write Request failed: Attribute can't be written
+
+# read notify characteristic works
+[F7:D1:B0:5E:4C:CE][LE]> char-read-uuid 6202
+handle: 0x002b 	 value: 01 03 04 05 06 
+# or
+[F7:D1:B0:5E:4C:CE][LE]> char-read-hnd 0x002b
+Characteristic value/descriptor: 01 03 04 05 06 
+
+# enable notifications on the 6202 characteristic
+# does NOT work:
+[F7:D1:B0:5E:4C:CE][LE]> char-write-req 0x002b 0100
+Error: Characteristic Write Request failed: Attribute can't be written
+# enabling notification is done by using the 00002902 characteristic (CCCD handle = 0x000c)
+[F7:D1:B0:5E:4C:CE][LE]> char-write-req 0x002c 0100
+Characteristic value was written successfully
+# then we receive data as:
+Notification handle = 0x002b value: 01 03 04 05 06 
+
+# Note:_Write without response does not work so we do NOT use it.
+

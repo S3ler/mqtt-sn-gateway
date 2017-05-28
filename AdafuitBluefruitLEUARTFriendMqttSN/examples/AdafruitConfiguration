@@ -1,0 +1,51 @@
+# Note: read/write are from the central device perspective
+# read means: the peripheral device write the characteristic and the central device reads it - write vice versa
+
+#### Set Up - Reading and Writing of Characteristics ####
+AT+FACTORYRESET
+AT+GAPDEVNAME=Adafruit MQTT-SN Client
+# Clear GATT and create GATT
+AT+GATTCLEAR
+# Create MQTT-SN GATT Service
+AT+GATTADDSERVICE=UUID=0x6275
+# Create read (0x02) will be handle 1 - used to send data to the gateway
+AT+GATTADDCHAR=UUID=0x6202,PROPERTIES=0x02,MIN_LEN=1,MAX_LEN=20,VALUE=00-00
+# Write (0x08) characteristics will be handle 2 - used to receive data from the gateway
+AT+GATTADDCHAR=UUID=0x6203,PROPERTIES=0x08,MIN_LEN=1,MAX_LEN=20,VALUE=00-00
+# Commit changes
+ATZ
+
+# read/write handle 1
+# read
+AT+GATTCHAR=1
+# write
+AT+GATTCHAR=1,01-03-04-05-06
+# read again for testing:
+AT > AT+GATTCHAR=1
+<- 01-03-04-05-06-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+OK
+
+# read/write handle 2
+# read
+AT+GATTCHAR=2
+# write
+AT+GATTCHAR=2,04-03-02-01
+# read again for testing:
+AT > AT+GATTCHAR=3
+<- 04-03-02-01-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+OK
+
+#### Set Up - Notification and Write Without Response Characteristics ####
+AT+FACTORYRESET
+AT+GAPDEVNAME=Adafruit MQTT-SN Client
+# Clear GATT and create GATT
+AT+GATTCLEAR
+# Create MQTT-SN GATT Service
+AT+GATTADDSERVICE=UUID=0x6275
+# Create notification (0x10) will be handle 1 - used to send data to the gateway
+AT+GATTADDCHAR=UUID=0x6202,PROPERTIES=0x10,MIN_LEN=1,MAX_LEN=20,VALUE=00-00
+# Write Without Response (0x04) characteristics will be handle 2 - used to receive data from the gateway
+# Note:_Write without response does not work so we do NOT use it.
+AT+GATTADDCHAR=UUID=0x6203,PROPERTIES=0x04,MIN_LEN=1,MAX_LEN=20,VALUE=00-00
+# Commit changes
+ATZ

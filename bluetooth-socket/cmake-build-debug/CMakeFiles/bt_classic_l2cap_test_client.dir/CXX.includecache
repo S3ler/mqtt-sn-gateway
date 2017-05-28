@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bele/mqttsngit/bluetooth-socket/src/testclients/l2cap-client.cpp
+stdio.h
+-
+string.h
+-
+unistd.h
+-
+sys/socket.h
+-
+bluetooth/bluetooth.h
+-
+bluetooth/l2cap.h
+-
+cstdlib
+-
+

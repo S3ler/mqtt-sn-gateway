@@ -1,0 +1,13 @@
+/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles/bt_le_l2cap_test_client.dir
+/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles/bt_classic_l2cap_test_server.dir
+/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles/bt_classic_l2cap_test_client.dir
+/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles/bt_classic_rfcomm_test_client.dir
+/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles/bt_classic_rfcomm_test_server.dir
+/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles/lib-bluetooth_socket.dir
+/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles/bt_le_l2cap_test_server.dir
+/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles/bluetooth_socket.dir
+/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/CMakeFiles/rebuild_cache.dir
+/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/CMakeFiles/edit_cache.dir
+/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir

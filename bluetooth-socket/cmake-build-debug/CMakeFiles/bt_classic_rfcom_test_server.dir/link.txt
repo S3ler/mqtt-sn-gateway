@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/bt_classic_rfcom_test_server.dir/src/testserver/rfcomm-server.cpp.o  -o bt_classic_rfcom_test_server -lbluetooth 
