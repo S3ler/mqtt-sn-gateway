@@ -8,35 +8,35 @@
 		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\core-mqtt-sn-gateway\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bt_le_l2cap_test_client">
-				<Option output="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/bt_le_l2cap_test_client" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug"/>
+				<Option output="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/bt_le_l2cap_test_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/Implementation"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/main"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/main"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -47,22 +47,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_le_l2cap_test_client"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_le_l2cap_test_client"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bt_le_l2cap_test_client/fast">
-				<Option output="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/bt_le_l2cap_test_client" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug"/>
+				<Option output="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/bt_le_l2cap_test_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/Implementation"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/main"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/main"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -73,22 +73,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_le_l2cap_test_client/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_le_l2cap_test_client/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bt_classic_l2cap_test_server">
-				<Option output="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/bt_classic_l2cap_test_server" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug"/>
+				<Option output="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/bt_classic_l2cap_test_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/Implementation"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/main"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/main"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -99,22 +99,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_classic_l2cap_test_server"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_classic_l2cap_test_server"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bt_classic_l2cap_test_server/fast">
-				<Option output="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/bt_classic_l2cap_test_server" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug"/>
+				<Option output="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/bt_classic_l2cap_test_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/Implementation"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/main"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/main"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -125,22 +125,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_classic_l2cap_test_server/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_classic_l2cap_test_server/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bt_classic_l2cap_test_client">
-				<Option output="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/bt_classic_l2cap_test_client" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug"/>
+				<Option output="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/bt_classic_l2cap_test_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/Implementation"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/main"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/main"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -151,22 +151,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_classic_l2cap_test_client"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_classic_l2cap_test_client"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bt_classic_l2cap_test_client/fast">
-				<Option output="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/bt_classic_l2cap_test_client" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug"/>
+				<Option output="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/bt_classic_l2cap_test_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/Implementation"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/main"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/main"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -177,22 +177,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_classic_l2cap_test_client/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_classic_l2cap_test_client/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bt_classic_rfcomm_test_client">
-				<Option output="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/bt_classic_rfcomm_test_client" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug"/>
+				<Option output="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/bt_classic_rfcomm_test_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/Implementation"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/main"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/main"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -203,22 +203,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_classic_rfcomm_test_client"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_classic_rfcomm_test_client"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bt_classic_rfcomm_test_client/fast">
-				<Option output="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/bt_classic_rfcomm_test_client" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug"/>
+				<Option output="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/bt_classic_rfcomm_test_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/Implementation"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/main"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/main"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -229,32 +229,32 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_classic_rfcomm_test_client/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_classic_rfcomm_test_client/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bt_classic_rfcomm_test_server">
-				<Option output="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/bt_classic_rfcomm_test_server" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug"/>
+				<Option output="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/bt_classic_rfcomm_test_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/Implementation"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/main"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/main"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -265,22 +265,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_classic_rfcomm_test_server"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_classic_rfcomm_test_server"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bt_classic_rfcomm_test_server/fast">
-				<Option output="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/bt_classic_rfcomm_test_server" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug"/>
+				<Option output="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/bt_classic_rfcomm_test_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/Implementation"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/main"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/main"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -291,22 +291,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_classic_rfcomm_test_server/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_classic_rfcomm_test_server/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lib-bluetooth_socket">
-				<Option output="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/liblib-bluetooth_socket.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug"/>
+				<Option output="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/liblib-bluetooth_socket.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/Implementation"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/main"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/main"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -317,22 +317,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 lib-bluetooth_socket"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 lib-bluetooth_socket"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lib-bluetooth_socket/fast">
-				<Option output="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/liblib-bluetooth_socket.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug"/>
+				<Option output="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/liblib-bluetooth_socket.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/Implementation"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/main"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/main"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -343,22 +343,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 lib-bluetooth_socket/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 lib-bluetooth_socket/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bt_le_l2cap_test_server">
-				<Option output="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/bt_le_l2cap_test_server" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug"/>
+				<Option output="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/bt_le_l2cap_test_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/Implementation"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/main"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/main"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -369,22 +369,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_le_l2cap_test_server"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_le_l2cap_test_server"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bt_le_l2cap_test_server/fast">
-				<Option output="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/bt_le_l2cap_test_server" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug"/>
+				<Option output="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/bt_le_l2cap_test_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/Implementation"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/main"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/main"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -395,22 +395,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_le_l2cap_test_server/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_le_l2cap_test_server/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bluetooth_socket">
-				<Option output="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/bluetooth_socket" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug"/>
+				<Option output="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/bluetooth_socket" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/Implementation"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/main"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/main"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -421,22 +421,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bluetooth_socket"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bluetooth_socket"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bluetooth_socket/fast">
-				<Option output="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/bluetooth_socket" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug"/>
+				<Option output="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/bluetooth_socket" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/Implementation"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/main"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/main"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -447,22 +447,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bluetooth_socket/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 bluetooth_socket/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="core-mqtt-sn-gateway">
-				<Option output="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/libcore-mqtt-sn-gateway.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway"/>
+				<Option output="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/libcore-mqtt-sn-gateway.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/Implementation"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/main"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/main"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -473,22 +473,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/Makefile&quot;  VERBOSE=1 core-mqtt-sn-gateway"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/Makefile&quot;  VERBOSE=1 core-mqtt-sn-gateway"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="core-mqtt-sn-gateway/fast">
-				<Option output="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/libcore-mqtt-sn-gateway.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway"/>
+				<Option output="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/libcore-mqtt-sn-gateway.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/Implementation"/>
-					<Add directory="/home/bele/mqttsngit/bluetooth-socket/src/main"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation"/>
+					<Add directory="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/main"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -499,121 +499,121 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/Makefile&quot;  VERBOSE=1 core-mqtt-sn-gateway/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/Makefile&quot;  VERBOSE=1 core-mqtt-sn-gateway/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/Implementation/BluetoothConnection.cpp">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation/BluetoothConnection.cpp">
 			<Option target="bluetooth_socket"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/Implementation/BluetoothConnection.h">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation/BluetoothConnection.h">
 			<Option target="bluetooth_socket"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/Implementation/ConnectionAcceptor.cpp">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation/ConnectionAcceptor.cpp">
 			<Option target="bluetooth_socket"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/Implementation/ConnectionAcceptor.h">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation/ConnectionAcceptor.h">
 			<Option target="bluetooth_socket"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/Implementation/LinuxBluetoothSocket.cpp">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation/LinuxBluetoothSocket.cpp">
 			<Option target="lib-bluetooth_socket"/>
 			<Option target="bluetooth_socket"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/Implementation/LinuxBluetoothSocket.h">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation/LinuxBluetoothSocket.h">
 			<Option target="lib-bluetooth_socket"/>
 			<Option target="bluetooth_socket"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/Implementation/MessageBuffer.cpp">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation/MessageBuffer.cpp">
 			<Option target="bluetooth_socket"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/Implementation/MessageBuffer.h">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation/MessageBuffer.h">
 			<Option target="bluetooth_socket"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/Implementation/Queue.h">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation/Queue.h">
 			<Option target="bluetooth_socket"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/CoreImpl.cpp">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/CoreImpl.cpp">
 			<Option target="core-mqtt-sn-gateway"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/CoreImpl.h">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/CoreImpl.h">
 			<Option target="core-mqtt-sn-gateway"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/CoreInterface.h">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/CoreInterface.h">
 			<Option target="core-mqtt-sn-gateway"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/Gateway.cpp">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/Gateway.cpp">
 			<Option target="core-mqtt-sn-gateway"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/Gateway.h">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/Gateway.h">
 			<Option target="core-mqtt-sn-gateway"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/LoggerInterface.h">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/LoggerInterface.h">
 			<Option target="core-mqtt-sn-gateway"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/MqttMessageHandlerInterface.cpp">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/MqttMessageHandlerInterface.cpp">
 			<Option target="core-mqtt-sn-gateway"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/MqttMessageHandlerInterface.h">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/MqttMessageHandlerInterface.h">
 			<Option target="core-mqtt-sn-gateway"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/MqttSnMessageHandler.cpp">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/MqttSnMessageHandler.cpp">
 			<Option target="core-mqtt-sn-gateway"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/MqttSnMessageHandler.h">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/MqttSnMessageHandler.h">
 			<Option target="core-mqtt-sn-gateway"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/PersistentInterface.cpp">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/PersistentInterface.cpp">
 			<Option target="core-mqtt-sn-gateway"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/PersistentInterface.h">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/PersistentInterface.h">
 			<Option target="core-mqtt-sn-gateway"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/SocketInterface.cpp">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/SocketInterface.cpp">
 			<Option target="core-mqtt-sn-gateway"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/SocketInterface.h">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/SocketInterface.h">
 			<Option target="core-mqtt-sn-gateway"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/core_defines.h">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/core_defines.h">
 			<Option target="core-mqtt-sn-gateway"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/global_defines.h">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/global_defines.h">
 			<Option target="core-mqtt-sn-gateway"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/mqttsn_messages.h">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/mqttsn_messages.h">
 			<Option target="core-mqtt-sn-gateway"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/main.cpp">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/main.cpp">
 			<Option target="bluetooth_socket"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/testclients/l2cap-client.cpp">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/testclients/l2cap-client.cpp">
 			<Option target="bt_classic_l2cap_test_client"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/testclients/le_l2cap-client.cpp">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/testclients/le_l2cap-client.cpp">
 			<Option target="bt_le_l2cap_test_client"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/testclients/rfcomm-client.cpp">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/testclients/rfcomm-client.cpp">
 			<Option target="bt_classic_rfcomm_test_client"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/testserver/l2cap-server.cpp">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/testserver/l2cap-server.cpp">
 			<Option target="bt_classic_l2cap_test_server"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/testserver/le_l2cap-server.cpp">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/testserver/le_l2cap-server.cpp">
 			<Option target="bt_le_l2cap_test_server"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/testserver/rfcomm-server.cpp">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/testserver/rfcomm-server.cpp">
 			<Option target="bt_classic_rfcomm_test_server"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/CMakeLists.txt">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/CMakeLists.txt">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\core-mqtt-sn-gateway\"/>
 		</Unit>
-		<Unit filename="/home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/CMakeLists.txt">
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\core-mqtt-sn-gateway\"/>
 		</Unit>
 	</Project>

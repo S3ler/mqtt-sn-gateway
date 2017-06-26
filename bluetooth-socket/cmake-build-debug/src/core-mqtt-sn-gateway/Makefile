@@ -48,10 +48,10 @@ RM = /home/bele/JetBrain/clion-2017.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bele/mqttsngit/bluetooth-socket
+CMAKE_SOURCE_DIR = /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug
+CMAKE_BINARY_DIR = /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/CMakeFiles/progress.marks
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/core-mqtt-sn-gateway/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles 0
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/CMakeFiles/progress.marks
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/core-mqtt-sn-gateway/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/core-mqtt-sn-gateway/clean
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/core-mqtt-sn-gateway/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/core-mqtt-sn-gateway/preinstall
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/core-mqtt-sn-gateway/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/core-mqtt-sn-gateway/preinstall
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/core-mqtt-sn-gateway/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/rule:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/rule
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/rule
 .PHONY : src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ core-mqtt-sn-gateway: src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.d
 
 # fast build rule for target.
 core-mqtt-sn-gateway/fast:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build
 .PHONY : core-mqtt-sn-gateway/fast
 
 src/CoreImpl.o: src/CoreImpl.cpp.o
@@ -131,7 +131,7 @@ src/CoreImpl.o: src/CoreImpl.cpp.o
 
 # target to build an object file
 src/CoreImpl.cpp.o:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/CoreImpl.cpp.o
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/CoreImpl.cpp.o
 .PHONY : src/CoreImpl.cpp.o
 
 src/CoreImpl.i: src/CoreImpl.cpp.i
@@ -140,7 +140,7 @@ src/CoreImpl.i: src/CoreImpl.cpp.i
 
 # target to preprocess a source file
 src/CoreImpl.cpp.i:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/CoreImpl.cpp.i
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/CoreImpl.cpp.i
 .PHONY : src/CoreImpl.cpp.i
 
 src/CoreImpl.s: src/CoreImpl.cpp.s
@@ -149,7 +149,7 @@ src/CoreImpl.s: src/CoreImpl.cpp.s
 
 # target to generate assembly for a file
 src/CoreImpl.cpp.s:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/CoreImpl.cpp.s
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/CoreImpl.cpp.s
 .PHONY : src/CoreImpl.cpp.s
 
 src/Gateway.o: src/Gateway.cpp.o
@@ -158,7 +158,7 @@ src/Gateway.o: src/Gateway.cpp.o
 
 # target to build an object file
 src/Gateway.cpp.o:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/Gateway.cpp.o
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/Gateway.cpp.o
 .PHONY : src/Gateway.cpp.o
 
 src/Gateway.i: src/Gateway.cpp.i
@@ -167,7 +167,7 @@ src/Gateway.i: src/Gateway.cpp.i
 
 # target to preprocess a source file
 src/Gateway.cpp.i:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/Gateway.cpp.i
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/Gateway.cpp.i
 .PHONY : src/Gateway.cpp.i
 
 src/Gateway.s: src/Gateway.cpp.s
@@ -176,7 +176,7 @@ src/Gateway.s: src/Gateway.cpp.s
 
 # target to generate assembly for a file
 src/Gateway.cpp.s:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/Gateway.cpp.s
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/Gateway.cpp.s
 .PHONY : src/Gateway.cpp.s
 
 src/MqttMessageHandlerInterface.o: src/MqttMessageHandlerInterface.cpp.o
@@ -185,7 +185,7 @@ src/MqttMessageHandlerInterface.o: src/MqttMessageHandlerInterface.cpp.o
 
 # target to build an object file
 src/MqttMessageHandlerInterface.cpp.o:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttMessageHandlerInterface.cpp.o
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttMessageHandlerInterface.cpp.o
 .PHONY : src/MqttMessageHandlerInterface.cpp.o
 
 src/MqttMessageHandlerInterface.i: src/MqttMessageHandlerInterface.cpp.i
@@ -194,7 +194,7 @@ src/MqttMessageHandlerInterface.i: src/MqttMessageHandlerInterface.cpp.i
 
 # target to preprocess a source file
 src/MqttMessageHandlerInterface.cpp.i:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttMessageHandlerInterface.cpp.i
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttMessageHandlerInterface.cpp.i
 .PHONY : src/MqttMessageHandlerInterface.cpp.i
 
 src/MqttMessageHandlerInterface.s: src/MqttMessageHandlerInterface.cpp.s
@@ -203,7 +203,7 @@ src/MqttMessageHandlerInterface.s: src/MqttMessageHandlerInterface.cpp.s
 
 # target to generate assembly for a file
 src/MqttMessageHandlerInterface.cpp.s:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttMessageHandlerInterface.cpp.s
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttMessageHandlerInterface.cpp.s
 .PHONY : src/MqttMessageHandlerInterface.cpp.s
 
 src/MqttSnMessageHandler.o: src/MqttSnMessageHandler.cpp.o
@@ -212,7 +212,7 @@ src/MqttSnMessageHandler.o: src/MqttSnMessageHandler.cpp.o
 
 # target to build an object file
 src/MqttSnMessageHandler.cpp.o:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttSnMessageHandler.cpp.o
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttSnMessageHandler.cpp.o
 .PHONY : src/MqttSnMessageHandler.cpp.o
 
 src/MqttSnMessageHandler.i: src/MqttSnMessageHandler.cpp.i
@@ -221,7 +221,7 @@ src/MqttSnMessageHandler.i: src/MqttSnMessageHandler.cpp.i
 
 # target to preprocess a source file
 src/MqttSnMessageHandler.cpp.i:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttSnMessageHandler.cpp.i
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttSnMessageHandler.cpp.i
 .PHONY : src/MqttSnMessageHandler.cpp.i
 
 src/MqttSnMessageHandler.s: src/MqttSnMessageHandler.cpp.s
@@ -230,7 +230,7 @@ src/MqttSnMessageHandler.s: src/MqttSnMessageHandler.cpp.s
 
 # target to generate assembly for a file
 src/MqttSnMessageHandler.cpp.s:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttSnMessageHandler.cpp.s
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttSnMessageHandler.cpp.s
 .PHONY : src/MqttSnMessageHandler.cpp.s
 
 src/PersistentInterface.o: src/PersistentInterface.cpp.o
@@ -239,7 +239,7 @@ src/PersistentInterface.o: src/PersistentInterface.cpp.o
 
 # target to build an object file
 src/PersistentInterface.cpp.o:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/PersistentInterface.cpp.o
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/PersistentInterface.cpp.o
 .PHONY : src/PersistentInterface.cpp.o
 
 src/PersistentInterface.i: src/PersistentInterface.cpp.i
@@ -248,7 +248,7 @@ src/PersistentInterface.i: src/PersistentInterface.cpp.i
 
 # target to preprocess a source file
 src/PersistentInterface.cpp.i:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/PersistentInterface.cpp.i
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/PersistentInterface.cpp.i
 .PHONY : src/PersistentInterface.cpp.i
 
 src/PersistentInterface.s: src/PersistentInterface.cpp.s
@@ -257,7 +257,7 @@ src/PersistentInterface.s: src/PersistentInterface.cpp.s
 
 # target to generate assembly for a file
 src/PersistentInterface.cpp.s:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/PersistentInterface.cpp.s
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/PersistentInterface.cpp.s
 .PHONY : src/PersistentInterface.cpp.s
 
 src/SocketInterface.o: src/SocketInterface.cpp.o
@@ -266,7 +266,7 @@ src/SocketInterface.o: src/SocketInterface.cpp.o
 
 # target to build an object file
 src/SocketInterface.cpp.o:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/SocketInterface.cpp.o
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/SocketInterface.cpp.o
 .PHONY : src/SocketInterface.cpp.o
 
 src/SocketInterface.i: src/SocketInterface.cpp.i
@@ -275,7 +275,7 @@ src/SocketInterface.i: src/SocketInterface.cpp.i
 
 # target to preprocess a source file
 src/SocketInterface.cpp.i:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/SocketInterface.cpp.i
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/SocketInterface.cpp.i
 .PHONY : src/SocketInterface.cpp.i
 
 src/SocketInterface.s: src/SocketInterface.cpp.s
@@ -284,7 +284,7 @@ src/SocketInterface.s: src/SocketInterface.cpp.s
 
 # target to generate assembly for a file
 src/SocketInterface.cpp.s:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/SocketInterface.cpp.s
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/SocketInterface.cpp.s
 .PHONY : src/SocketInterface.cpp.s
 
 # Help Target
@@ -325,6 +325,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

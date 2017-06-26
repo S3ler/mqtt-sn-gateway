@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/bele/mqttsngit/bluetooth-socket/src/testclients/le_l2cap-client.cpp" "/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles/bt_le_l2cap_test_client.dir/src/testclients/le_l2cap-client.cpp.o"
+  "/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/testclients/le_l2cap-client.cpp" "/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles/bt_le_l2cap_test_client.dir/src/testclients/le_l2cap-client.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

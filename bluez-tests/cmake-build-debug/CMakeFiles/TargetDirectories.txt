@@ -1,0 +1,5 @@
+/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/CMakeFiles/bt_le_bluez_scan_test.dir
+/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/CMakeFiles/simple_lescan.dir
+/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/CMakeFiles/gatttool_test.dir

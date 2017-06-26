@@ -43,10 +43,10 @@ RM = /home/bele/JetBrain/clion-2017.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bele/mqttsngit/bluetooth-socket
+CMAKE_SOURCE_DIR = /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug
+CMAKE_BINARY_DIR = /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/depend.make
@@ -59,16 +59,16 @@ include src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/flags.make
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/CoreImpl.cpp.o: src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/flags.make
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/CoreImpl.cpp.o: ../src/core-mqtt-sn-gateway/src/CoreImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/CoreImpl.cpp.o"
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core-mqtt-sn-gateway.dir/src/CoreImpl.cpp.o -c /home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/CoreImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/CoreImpl.cpp.o"
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core-mqtt-sn-gateway.dir/src/CoreImpl.cpp.o -c /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/CoreImpl.cpp
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/CoreImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core-mqtt-sn-gateway.dir/src/CoreImpl.cpp.i"
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/CoreImpl.cpp > CMakeFiles/core-mqtt-sn-gateway.dir/src/CoreImpl.cpp.i
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/CoreImpl.cpp > CMakeFiles/core-mqtt-sn-gateway.dir/src/CoreImpl.cpp.i
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/CoreImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core-mqtt-sn-gateway.dir/src/CoreImpl.cpp.s"
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/CoreImpl.cpp -o CMakeFiles/core-mqtt-sn-gateway.dir/src/CoreImpl.cpp.s
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/CoreImpl.cpp -o CMakeFiles/core-mqtt-sn-gateway.dir/src/CoreImpl.cpp.s
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/CoreImpl.cpp.o.requires:
 
@@ -83,16 +83,16 @@ src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/CoreImpl.cpp.o.
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/Gateway.cpp.o: src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/flags.make
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/Gateway.cpp.o: ../src/core-mqtt-sn-gateway/src/Gateway.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/Gateway.cpp.o"
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core-mqtt-sn-gateway.dir/src/Gateway.cpp.o -c /home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/Gateway.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/Gateway.cpp.o"
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core-mqtt-sn-gateway.dir/src/Gateway.cpp.o -c /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/Gateway.cpp
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/Gateway.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core-mqtt-sn-gateway.dir/src/Gateway.cpp.i"
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/Gateway.cpp > CMakeFiles/core-mqtt-sn-gateway.dir/src/Gateway.cpp.i
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/Gateway.cpp > CMakeFiles/core-mqtt-sn-gateway.dir/src/Gateway.cpp.i
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/Gateway.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core-mqtt-sn-gateway.dir/src/Gateway.cpp.s"
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/Gateway.cpp -o CMakeFiles/core-mqtt-sn-gateway.dir/src/Gateway.cpp.s
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/Gateway.cpp -o CMakeFiles/core-mqtt-sn-gateway.dir/src/Gateway.cpp.s
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/Gateway.cpp.o.requires:
 
@@ -107,16 +107,16 @@ src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/Gateway.cpp.o.p
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttMessageHandlerInterface.cpp.o: src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/flags.make
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttMessageHandlerInterface.cpp.o: ../src/core-mqtt-sn-gateway/src/MqttMessageHandlerInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttMessageHandlerInterface.cpp.o"
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttMessageHandlerInterface.cpp.o -c /home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/MqttMessageHandlerInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttMessageHandlerInterface.cpp.o"
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttMessageHandlerInterface.cpp.o -c /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/MqttMessageHandlerInterface.cpp
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttMessageHandlerInterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttMessageHandlerInterface.cpp.i"
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/MqttMessageHandlerInterface.cpp > CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttMessageHandlerInterface.cpp.i
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/MqttMessageHandlerInterface.cpp > CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttMessageHandlerInterface.cpp.i
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttMessageHandlerInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttMessageHandlerInterface.cpp.s"
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/MqttMessageHandlerInterface.cpp -o CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttMessageHandlerInterface.cpp.s
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/MqttMessageHandlerInterface.cpp -o CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttMessageHandlerInterface.cpp.s
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttMessageHandlerInterface.cpp.o.requires:
 
@@ -131,16 +131,16 @@ src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttMessageHand
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttSnMessageHandler.cpp.o: src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/flags.make
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttSnMessageHandler.cpp.o: ../src/core-mqtt-sn-gateway/src/MqttSnMessageHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttSnMessageHandler.cpp.o"
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttSnMessageHandler.cpp.o -c /home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/MqttSnMessageHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttSnMessageHandler.cpp.o"
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttSnMessageHandler.cpp.o -c /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/MqttSnMessageHandler.cpp
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttSnMessageHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttSnMessageHandler.cpp.i"
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/MqttSnMessageHandler.cpp > CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttSnMessageHandler.cpp.i
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/MqttSnMessageHandler.cpp > CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttSnMessageHandler.cpp.i
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttSnMessageHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttSnMessageHandler.cpp.s"
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/MqttSnMessageHandler.cpp -o CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttSnMessageHandler.cpp.s
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/MqttSnMessageHandler.cpp -o CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttSnMessageHandler.cpp.s
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttSnMessageHandler.cpp.o.requires:
 
@@ -155,16 +155,16 @@ src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/MqttSnMessageHa
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/PersistentInterface.cpp.o: src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/flags.make
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/PersistentInterface.cpp.o: ../src/core-mqtt-sn-gateway/src/PersistentInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/PersistentInterface.cpp.o"
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core-mqtt-sn-gateway.dir/src/PersistentInterface.cpp.o -c /home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/PersistentInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/PersistentInterface.cpp.o"
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core-mqtt-sn-gateway.dir/src/PersistentInterface.cpp.o -c /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/PersistentInterface.cpp
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/PersistentInterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core-mqtt-sn-gateway.dir/src/PersistentInterface.cpp.i"
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/PersistentInterface.cpp > CMakeFiles/core-mqtt-sn-gateway.dir/src/PersistentInterface.cpp.i
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/PersistentInterface.cpp > CMakeFiles/core-mqtt-sn-gateway.dir/src/PersistentInterface.cpp.i
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/PersistentInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core-mqtt-sn-gateway.dir/src/PersistentInterface.cpp.s"
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/PersistentInterface.cpp -o CMakeFiles/core-mqtt-sn-gateway.dir/src/PersistentInterface.cpp.s
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/PersistentInterface.cpp -o CMakeFiles/core-mqtt-sn-gateway.dir/src/PersistentInterface.cpp.s
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/PersistentInterface.cpp.o.requires:
 
@@ -179,16 +179,16 @@ src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/PersistentInter
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/SocketInterface.cpp.o: src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/flags.make
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/SocketInterface.cpp.o: ../src/core-mqtt-sn-gateway/src/SocketInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/SocketInterface.cpp.o"
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core-mqtt-sn-gateway.dir/src/SocketInterface.cpp.o -c /home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/SocketInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/SocketInterface.cpp.o"
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core-mqtt-sn-gateway.dir/src/SocketInterface.cpp.o -c /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/SocketInterface.cpp
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/SocketInterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core-mqtt-sn-gateway.dir/src/SocketInterface.cpp.i"
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/SocketInterface.cpp > CMakeFiles/core-mqtt-sn-gateway.dir/src/SocketInterface.cpp.i
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/SocketInterface.cpp > CMakeFiles/core-mqtt-sn-gateway.dir/src/SocketInterface.cpp.i
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/SocketInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core-mqtt-sn-gateway.dir/src/SocketInterface.cpp.s"
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway/src/SocketInterface.cpp -o CMakeFiles/core-mqtt-sn-gateway.dir/src/SocketInterface.cpp.s
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway/src/SocketInterface.cpp -o CMakeFiles/core-mqtt-sn-gateway.dir/src/SocketInterface.cpp.s
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/SocketInterface.cpp.o.requires:
 
@@ -221,9 +221,9 @@ src/core-mqtt-sn-gateway/libcore-mqtt-sn-gateway.a: src/core-mqtt-sn-gateway/CMa
 src/core-mqtt-sn-gateway/libcore-mqtt-sn-gateway.a: src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/src/SocketInterface.cpp.o
 src/core-mqtt-sn-gateway/libcore-mqtt-sn-gateway.a: src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make
 src/core-mqtt-sn-gateway/libcore-mqtt-sn-gateway.a: src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libcore-mqtt-sn-gateway.a"
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && $(CMAKE_COMMAND) -P CMakeFiles/core-mqtt-sn-gateway.dir/cmake_clean_target.cmake
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/core-mqtt-sn-gateway.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libcore-mqtt-sn-gateway.a"
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && $(CMAKE_COMMAND) -P CMakeFiles/core-mqtt-sn-gateway.dir/cmake_clean_target.cmake
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/core-mqtt-sn-gateway.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build: src/core-mqtt-sn-gateway/libcore-mqtt-sn-gateway.a
@@ -240,10 +240,10 @@ src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/requires: src/core-
 .PHONY : src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/requires
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/clean:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && $(CMAKE_COMMAND) -P CMakeFiles/core-mqtt-sn-gateway.dir/cmake_clean.cmake
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway && $(CMAKE_COMMAND) -P CMakeFiles/core-mqtt-sn-gateway.dir/cmake_clean.cmake
 .PHONY : src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/clean
 
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/depend:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bele/mqttsngit/bluetooth-socket /home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/depend
 

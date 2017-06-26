@@ -72,7 +72,7 @@ bool LinuxBluetoothSocket::loop() {
     MessageBuffer *msg = queue.pop();
 
 
-    // TODO uncommend me:
+    // TODO uncommend me:sr
     // mqttSnMessageHandler->receiveData(msg->getAddress(), msg->getBuffer());
 }
 

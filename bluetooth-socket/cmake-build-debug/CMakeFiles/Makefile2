@@ -54,10 +54,10 @@ RM = /home/bele/JetBrain/clion-2017.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bele/mqttsngit/bluetooth-socket
+CMAKE_SOURCE_DIR = /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug
+CMAKE_BINARY_DIR = /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/bt_le_l2cap_test_client.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug
 CMakeFiles/bt_le_l2cap_test_client.dir/all:
 	$(MAKE) -f CMakeFiles/bt_le_l2cap_test_client.dir/build.make CMakeFiles/bt_le_l2cap_test_client.dir/depend
 	$(MAKE) -f CMakeFiles/bt_le_l2cap_test_client.dir/build.make CMakeFiles/bt_le_l2cap_test_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target bt_le_l2cap_test_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target bt_le_l2cap_test_client"
 .PHONY : CMakeFiles/bt_le_l2cap_test_client.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/bt_le_l2cap_test_client.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/bt_le_l2cap_test_client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/bt_le_l2cap_test_client.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/bt_le_l2cap_test_client.dir/rule
 
 # Convenience name for target.
@@ -103,7 +103,7 @@ clean: CMakeFiles/bt_le_l2cap_test_client.dir/clean
 CMakeFiles/bt_classic_l2cap_test_server.dir/all:
 	$(MAKE) -f CMakeFiles/bt_classic_l2cap_test_server.dir/build.make CMakeFiles/bt_classic_l2cap_test_server.dir/depend
 	$(MAKE) -f CMakeFiles/bt_classic_l2cap_test_server.dir/build.make CMakeFiles/bt_classic_l2cap_test_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target bt_classic_l2cap_test_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target bt_classic_l2cap_test_server"
 .PHONY : CMakeFiles/bt_classic_l2cap_test_server.dir/all
 
 # Include target in all.
@@ -113,9 +113,9 @@ all: CMakeFiles/bt_classic_l2cap_test_server.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/bt_classic_l2cap_test_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/bt_classic_l2cap_test_server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/bt_classic_l2cap_test_server.dir/rule
 
 # Convenience name for target.
@@ -140,7 +140,7 @@ clean: CMakeFiles/bt_classic_l2cap_test_server.dir/clean
 CMakeFiles/bt_classic_l2cap_test_client.dir/all:
 	$(MAKE) -f CMakeFiles/bt_classic_l2cap_test_client.dir/build.make CMakeFiles/bt_classic_l2cap_test_client.dir/depend
 	$(MAKE) -f CMakeFiles/bt_classic_l2cap_test_client.dir/build.make CMakeFiles/bt_classic_l2cap_test_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target bt_classic_l2cap_test_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target bt_classic_l2cap_test_client"
 .PHONY : CMakeFiles/bt_classic_l2cap_test_client.dir/all
 
 # Include target in all.
@@ -150,9 +150,9 @@ all: CMakeFiles/bt_classic_l2cap_test_client.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/bt_classic_l2cap_test_client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/bt_classic_l2cap_test_client.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/bt_classic_l2cap_test_client.dir/rule
 
 # Convenience name for target.
@@ -177,7 +177,7 @@ clean: CMakeFiles/bt_classic_l2cap_test_client.dir/clean
 CMakeFiles/bt_classic_rfcomm_test_client.dir/all:
 	$(MAKE) -f CMakeFiles/bt_classic_rfcomm_test_client.dir/build.make CMakeFiles/bt_classic_rfcomm_test_client.dir/depend
 	$(MAKE) -f CMakeFiles/bt_classic_rfcomm_test_client.dir/build.make CMakeFiles/bt_classic_rfcomm_test_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target bt_classic_rfcomm_test_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target bt_classic_rfcomm_test_client"
 .PHONY : CMakeFiles/bt_classic_rfcomm_test_client.dir/all
 
 # Include target in all.
@@ -187,9 +187,9 @@ all: CMakeFiles/bt_classic_rfcomm_test_client.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/bt_classic_rfcomm_test_client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/bt_classic_rfcomm_test_client.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/bt_classic_rfcomm_test_client.dir/rule
 
 # Convenience name for target.
@@ -214,7 +214,7 @@ clean: CMakeFiles/bt_classic_rfcomm_test_client.dir/clean
 CMakeFiles/bt_classic_rfcomm_test_server.dir/all:
 	$(MAKE) -f CMakeFiles/bt_classic_rfcomm_test_server.dir/build.make CMakeFiles/bt_classic_rfcomm_test_server.dir/depend
 	$(MAKE) -f CMakeFiles/bt_classic_rfcomm_test_server.dir/build.make CMakeFiles/bt_classic_rfcomm_test_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target bt_classic_rfcomm_test_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target bt_classic_rfcomm_test_server"
 .PHONY : CMakeFiles/bt_classic_rfcomm_test_server.dir/all
 
 # Include target in all.
@@ -224,9 +224,9 @@ all: CMakeFiles/bt_classic_rfcomm_test_server.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/bt_classic_rfcomm_test_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/bt_classic_rfcomm_test_server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/bt_classic_rfcomm_test_server.dir/rule
 
 # Convenience name for target.
@@ -251,7 +251,7 @@ clean: CMakeFiles/bt_classic_rfcomm_test_server.dir/clean
 CMakeFiles/lib-bluetooth_socket.dir/all: src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/all
 	$(MAKE) -f CMakeFiles/lib-bluetooth_socket.dir/build.make CMakeFiles/lib-bluetooth_socket.dir/depend
 	$(MAKE) -f CMakeFiles/lib-bluetooth_socket.dir/build.make CMakeFiles/lib-bluetooth_socket.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target lib-bluetooth_socket"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target lib-bluetooth_socket"
 .PHONY : CMakeFiles/lib-bluetooth_socket.dir/all
 
 # Include target in all.
@@ -261,9 +261,9 @@ all: CMakeFiles/lib-bluetooth_socket.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lib-bluetooth_socket.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lib-bluetooth_socket.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/lib-bluetooth_socket.dir/rule
 
 # Convenience name for target.
@@ -288,7 +288,7 @@ clean: CMakeFiles/lib-bluetooth_socket.dir/clean
 CMakeFiles/bt_le_l2cap_test_server.dir/all:
 	$(MAKE) -f CMakeFiles/bt_le_l2cap_test_server.dir/build.make CMakeFiles/bt_le_l2cap_test_server.dir/depend
 	$(MAKE) -f CMakeFiles/bt_le_l2cap_test_server.dir/build.make CMakeFiles/bt_le_l2cap_test_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target bt_le_l2cap_test_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target bt_le_l2cap_test_server"
 .PHONY : CMakeFiles/bt_le_l2cap_test_server.dir/all
 
 # Include target in all.
@@ -298,9 +298,9 @@ all: CMakeFiles/bt_le_l2cap_test_server.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/bt_le_l2cap_test_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/bt_le_l2cap_test_server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/bt_le_l2cap_test_server.dir/rule
 
 # Convenience name for target.
@@ -325,7 +325,7 @@ clean: CMakeFiles/bt_le_l2cap_test_server.dir/clean
 CMakeFiles/bluetooth_socket.dir/all: src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/all
 	$(MAKE) -f CMakeFiles/bluetooth_socket.dir/build.make CMakeFiles/bluetooth_socket.dir/depend
 	$(MAKE) -f CMakeFiles/bluetooth_socket.dir/build.make CMakeFiles/bluetooth_socket.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target bluetooth_socket"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target bluetooth_socket"
 .PHONY : CMakeFiles/bluetooth_socket.dir/all
 
 # Include target in all.
@@ -335,9 +335,9 @@ all: CMakeFiles/bluetooth_socket.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/bluetooth_socket.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/bluetooth_socket.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/bluetooth_socket.dir/rule
 
 # Convenience name for target.
@@ -380,7 +380,7 @@ src/core-mqtt-sn-gateway/preinstall:
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/all:
 	$(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/depend
 	$(MAKE) -f src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build.make src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=19,20,21,22,23,24,25 "Built target core-mqtt-sn-gateway"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=19,20,21,22,23,24,25 "Built target core-mqtt-sn-gateway"
 .PHONY : src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/all
 
 # Include target in all.
@@ -390,9 +390,9 @@ all: src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/all
 
 # Build rule for subdir invocation for target.
 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles 0
 .PHONY : src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/rule
 
 # Convenience name for target.

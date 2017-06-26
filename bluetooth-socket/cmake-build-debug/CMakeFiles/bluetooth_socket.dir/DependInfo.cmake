@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/bele/mqttsngit/bluetooth-socket/src/Implementation/BluetoothConnection.cpp" "/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles/bluetooth_socket.dir/src/Implementation/BluetoothConnection.cpp.o"
-  "/home/bele/mqttsngit/bluetooth-socket/src/Implementation/ConnectionAcceptor.cpp" "/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles/bluetooth_socket.dir/src/Implementation/ConnectionAcceptor.cpp.o"
-  "/home/bele/mqttsngit/bluetooth-socket/src/Implementation/LinuxBluetoothSocket.cpp" "/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles/bluetooth_socket.dir/src/Implementation/LinuxBluetoothSocket.cpp.o"
-  "/home/bele/mqttsngit/bluetooth-socket/src/Implementation/MessageBuffer.cpp" "/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles/bluetooth_socket.dir/src/Implementation/MessageBuffer.cpp.o"
-  "/home/bele/mqttsngit/bluetooth-socket/src/main.cpp" "/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles/bluetooth_socket.dir/src/main.cpp.o"
+  "/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation/BluetoothConnection.cpp" "/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles/bluetooth_socket.dir/src/Implementation/BluetoothConnection.cpp.o"
+  "/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation/ConnectionAcceptor.cpp" "/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles/bluetooth_socket.dir/src/Implementation/ConnectionAcceptor.cpp.o"
+  "/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation/LinuxBluetoothSocket.cpp" "/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles/bluetooth_socket.dir/src/Implementation/LinuxBluetoothSocket.cpp.o"
+  "/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation/MessageBuffer.cpp" "/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles/bluetooth_socket.dir/src/Implementation/MessageBuffer.cpp.o"
+  "/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/main.cpp" "/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles/bluetooth_socket.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,7 +21,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/DependInfo.cmake"
+  "/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/src/core-mqtt-sn-gateway/CMakeFiles/core-mqtt-sn-gateway.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

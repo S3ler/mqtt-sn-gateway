@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="bluez_tests"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bt_le_bluez_scan_test">
+				<Option output="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/bt_le_bluez_scan_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/glib-2.0/glib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_le_bluez_scan_test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bt_le_bluez_scan_test/fast">
+				<Option output="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/bt_le_bluez_scan_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/glib-2.0/glib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt_le_bluez_scan_test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple_lescan">
+				<Option output="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/simple_lescan" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/glib-2.0/glib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 simple_lescan"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple_lescan/fast">
+				<Option output="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/simple_lescan" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/glib-2.0/glib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 simple_lescan/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gatttool_test">
+				<Option output="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/gatttool_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/glib-2.0/glib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 gatttool_test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gatttool_test/fast">
+				<Option output="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/gatttool_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/glib-2.0/glib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 gatttool_test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/src/bluez/le_scan.cpp">
+			<Option target="bt_le_bluez_scan_test"/>
+		</Unit>
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/src/bluez/oui/oui.c">
+			<Option target="bt_le_bluez_scan_test"/>
+		</Unit>
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/src/bluez/oui/oui.h">
+			<Option target="bt_le_bluez_scan_test"/>
+		</Unit>
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/src/gatttool_test/att-types.h">
+			<Option target="gatttool_test"/>
+		</Unit>
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/src/gatttool_test/att.c">
+			<Option target="gatttool_test"/>
+		</Unit>
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/src/gatttool_test/att.h">
+			<Option target="gatttool_test"/>
+		</Unit>
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/src/gatttool_test/btio/btio.c">
+			<Option target="gatttool_test"/>
+		</Unit>
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/src/gatttool_test/btio/btio.h">
+			<Option target="gatttool_test"/>
+		</Unit>
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/src/gatttool_test/gatt.c">
+			<Option target="gatttool_test"/>
+		</Unit>
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/src/gatttool_test/gatt.h">
+			<Option target="gatttool_test"/>
+		</Unit>
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/src/gatttool_test/gattrib.c">
+			<Option target="gatttool_test"/>
+		</Unit>
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/src/gatttool_test/gattrib.h">
+			<Option target="gatttool_test"/>
+		</Unit>
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/src/gatttool_test/gatttool.c">
+			<Option target="gatttool_test"/>
+		</Unit>
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/src/gatttool_test/gatttool.h">
+			<Option target="gatttool_test"/>
+		</Unit>
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/src/gatttool_test/log.c">
+			<Option target="gatttool_test"/>
+		</Unit>
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/src/gatttool_test/log.h">
+			<Option target="gatttool_test"/>
+		</Unit>
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/src/gatttool_test/shared/crypto.c">
+			<Option target="gatttool_test"/>
+		</Unit>
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/src/gatttool_test/shared/crypto.h">
+			<Option target="gatttool_test"/>
+		</Unit>
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/src/gatttool_test/shared/queue.c">
+			<Option target="gatttool_test"/>
+		</Unit>
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/src/gatttool_test/shared/queue.h">
+			<Option target="gatttool_test"/>
+		</Unit>
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/src/gatttool_test/shared/util.c">
+			<Option target="gatttool_test"/>
+		</Unit>
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/src/gatttool_test/shared/util.h">
+			<Option target="gatttool_test"/>
+		</Unit>
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/src/simple_lescan/main.cpp">
+			<Option target="simple_lescan"/>
+		</Unit>
+		<Unit filename="/home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

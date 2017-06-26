@@ -1,4 +1,4 @@
-# Install script for directory: /home/bele/mqttsngit/bluetooth-socket/src/core-mqtt-sn-gateway
+# Install script for directory: /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/core-mqtt-sn-gateway
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

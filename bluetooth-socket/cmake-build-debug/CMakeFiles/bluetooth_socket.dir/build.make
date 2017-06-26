@@ -43,10 +43,10 @@ RM = /home/bele/JetBrain/clion-2017.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bele/mqttsngit/bluetooth-socket
+CMAKE_SOURCE_DIR = /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug
+CMAKE_BINARY_DIR = /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/bluetooth_socket.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/bluetooth_socket.dir/flags.make
 
 CMakeFiles/bluetooth_socket.dir/src/Implementation/LinuxBluetoothSocket.cpp.o: CMakeFiles/bluetooth_socket.dir/flags.make
 CMakeFiles/bluetooth_socket.dir/src/Implementation/LinuxBluetoothSocket.cpp.o: ../src/Implementation/LinuxBluetoothSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bluetooth_socket.dir/src/Implementation/LinuxBluetoothSocket.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bluetooth_socket.dir/src/Implementation/LinuxBluetoothSocket.cpp.o -c /home/bele/mqttsngit/bluetooth-socket/src/Implementation/LinuxBluetoothSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bluetooth_socket.dir/src/Implementation/LinuxBluetoothSocket.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bluetooth_socket.dir/src/Implementation/LinuxBluetoothSocket.cpp.o -c /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation/LinuxBluetoothSocket.cpp
 
 CMakeFiles/bluetooth_socket.dir/src/Implementation/LinuxBluetoothSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bluetooth_socket.dir/src/Implementation/LinuxBluetoothSocket.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bele/mqttsngit/bluetooth-socket/src/Implementation/LinuxBluetoothSocket.cpp > CMakeFiles/bluetooth_socket.dir/src/Implementation/LinuxBluetoothSocket.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation/LinuxBluetoothSocket.cpp > CMakeFiles/bluetooth_socket.dir/src/Implementation/LinuxBluetoothSocket.cpp.i
 
 CMakeFiles/bluetooth_socket.dir/src/Implementation/LinuxBluetoothSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bluetooth_socket.dir/src/Implementation/LinuxBluetoothSocket.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bele/mqttsngit/bluetooth-socket/src/Implementation/LinuxBluetoothSocket.cpp -o CMakeFiles/bluetooth_socket.dir/src/Implementation/LinuxBluetoothSocket.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation/LinuxBluetoothSocket.cpp -o CMakeFiles/bluetooth_socket.dir/src/Implementation/LinuxBluetoothSocket.cpp.s
 
 CMakeFiles/bluetooth_socket.dir/src/Implementation/LinuxBluetoothSocket.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/bluetooth_socket.dir/src/Implementation/LinuxBluetoothSocket.cpp.o.pr
 
 CMakeFiles/bluetooth_socket.dir/src/main.cpp.o: CMakeFiles/bluetooth_socket.dir/flags.make
 CMakeFiles/bluetooth_socket.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bluetooth_socket.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bluetooth_socket.dir/src/main.cpp.o -c /home/bele/mqttsngit/bluetooth-socket/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bluetooth_socket.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bluetooth_socket.dir/src/main.cpp.o -c /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/main.cpp
 
 CMakeFiles/bluetooth_socket.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bluetooth_socket.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bele/mqttsngit/bluetooth-socket/src/main.cpp > CMakeFiles/bluetooth_socket.dir/src/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/main.cpp > CMakeFiles/bluetooth_socket.dir/src/main.cpp.i
 
 CMakeFiles/bluetooth_socket.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bluetooth_socket.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bele/mqttsngit/bluetooth-socket/src/main.cpp -o CMakeFiles/bluetooth_socket.dir/src/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/main.cpp -o CMakeFiles/bluetooth_socket.dir/src/main.cpp.s
 
 CMakeFiles/bluetooth_socket.dir/src/main.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/bluetooth_socket.dir/src/main.cpp.o.provides.build: CMakeFiles/blueto
 
 CMakeFiles/bluetooth_socket.dir/src/Implementation/ConnectionAcceptor.cpp.o: CMakeFiles/bluetooth_socket.dir/flags.make
 CMakeFiles/bluetooth_socket.dir/src/Implementation/ConnectionAcceptor.cpp.o: ../src/Implementation/ConnectionAcceptor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bluetooth_socket.dir/src/Implementation/ConnectionAcceptor.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bluetooth_socket.dir/src/Implementation/ConnectionAcceptor.cpp.o -c /home/bele/mqttsngit/bluetooth-socket/src/Implementation/ConnectionAcceptor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bluetooth_socket.dir/src/Implementation/ConnectionAcceptor.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bluetooth_socket.dir/src/Implementation/ConnectionAcceptor.cpp.o -c /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation/ConnectionAcceptor.cpp
 
 CMakeFiles/bluetooth_socket.dir/src/Implementation/ConnectionAcceptor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bluetooth_socket.dir/src/Implementation/ConnectionAcceptor.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bele/mqttsngit/bluetooth-socket/src/Implementation/ConnectionAcceptor.cpp > CMakeFiles/bluetooth_socket.dir/src/Implementation/ConnectionAcceptor.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation/ConnectionAcceptor.cpp > CMakeFiles/bluetooth_socket.dir/src/Implementation/ConnectionAcceptor.cpp.i
 
 CMakeFiles/bluetooth_socket.dir/src/Implementation/ConnectionAcceptor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bluetooth_socket.dir/src/Implementation/ConnectionAcceptor.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bele/mqttsngit/bluetooth-socket/src/Implementation/ConnectionAcceptor.cpp -o CMakeFiles/bluetooth_socket.dir/src/Implementation/ConnectionAcceptor.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation/ConnectionAcceptor.cpp -o CMakeFiles/bluetooth_socket.dir/src/Implementation/ConnectionAcceptor.cpp.s
 
 CMakeFiles/bluetooth_socket.dir/src/Implementation/ConnectionAcceptor.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/bluetooth_socket.dir/src/Implementation/ConnectionAcceptor.cpp.o.prov
 
 CMakeFiles/bluetooth_socket.dir/src/Implementation/MessageBuffer.cpp.o: CMakeFiles/bluetooth_socket.dir/flags.make
 CMakeFiles/bluetooth_socket.dir/src/Implementation/MessageBuffer.cpp.o: ../src/Implementation/MessageBuffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bluetooth_socket.dir/src/Implementation/MessageBuffer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bluetooth_socket.dir/src/Implementation/MessageBuffer.cpp.o -c /home/bele/mqttsngit/bluetooth-socket/src/Implementation/MessageBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bluetooth_socket.dir/src/Implementation/MessageBuffer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bluetooth_socket.dir/src/Implementation/MessageBuffer.cpp.o -c /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation/MessageBuffer.cpp
 
 CMakeFiles/bluetooth_socket.dir/src/Implementation/MessageBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bluetooth_socket.dir/src/Implementation/MessageBuffer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bele/mqttsngit/bluetooth-socket/src/Implementation/MessageBuffer.cpp > CMakeFiles/bluetooth_socket.dir/src/Implementation/MessageBuffer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation/MessageBuffer.cpp > CMakeFiles/bluetooth_socket.dir/src/Implementation/MessageBuffer.cpp.i
 
 CMakeFiles/bluetooth_socket.dir/src/Implementation/MessageBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bluetooth_socket.dir/src/Implementation/MessageBuffer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bele/mqttsngit/bluetooth-socket/src/Implementation/MessageBuffer.cpp -o CMakeFiles/bluetooth_socket.dir/src/Implementation/MessageBuffer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation/MessageBuffer.cpp -o CMakeFiles/bluetooth_socket.dir/src/Implementation/MessageBuffer.cpp.s
 
 CMakeFiles/bluetooth_socket.dir/src/Implementation/MessageBuffer.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/bluetooth_socket.dir/src/Implementation/MessageBuffer.cpp.o.provides.
 
 CMakeFiles/bluetooth_socket.dir/src/Implementation/BluetoothConnection.cpp.o: CMakeFiles/bluetooth_socket.dir/flags.make
 CMakeFiles/bluetooth_socket.dir/src/Implementation/BluetoothConnection.cpp.o: ../src/Implementation/BluetoothConnection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/bluetooth_socket.dir/src/Implementation/BluetoothConnection.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bluetooth_socket.dir/src/Implementation/BluetoothConnection.cpp.o -c /home/bele/mqttsngit/bluetooth-socket/src/Implementation/BluetoothConnection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/bluetooth_socket.dir/src/Implementation/BluetoothConnection.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bluetooth_socket.dir/src/Implementation/BluetoothConnection.cpp.o -c /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation/BluetoothConnection.cpp
 
 CMakeFiles/bluetooth_socket.dir/src/Implementation/BluetoothConnection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bluetooth_socket.dir/src/Implementation/BluetoothConnection.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bele/mqttsngit/bluetooth-socket/src/Implementation/BluetoothConnection.cpp > CMakeFiles/bluetooth_socket.dir/src/Implementation/BluetoothConnection.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation/BluetoothConnection.cpp > CMakeFiles/bluetooth_socket.dir/src/Implementation/BluetoothConnection.cpp.i
 
 CMakeFiles/bluetooth_socket.dir/src/Implementation/BluetoothConnection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bluetooth_socket.dir/src/Implementation/BluetoothConnection.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bele/mqttsngit/bluetooth-socket/src/Implementation/BluetoothConnection.cpp -o CMakeFiles/bluetooth_socket.dir/src/Implementation/BluetoothConnection.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/src/Implementation/BluetoothConnection.cpp -o CMakeFiles/bluetooth_socket.dir/src/Implementation/BluetoothConnection.cpp.s
 
 CMakeFiles/bluetooth_socket.dir/src/Implementation/BluetoothConnection.cpp.o.requires:
 
@@ -196,7 +196,7 @@ bluetooth_socket: CMakeFiles/bluetooth_socket.dir/src/Implementation/BluetoothCo
 bluetooth_socket: CMakeFiles/bluetooth_socket.dir/build.make
 bluetooth_socket: src/core-mqtt-sn-gateway/libcore-mqtt-sn-gateway.a
 bluetooth_socket: CMakeFiles/bluetooth_socket.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable bluetooth_socket"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable bluetooth_socket"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bluetooth_socket.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -217,6 +217,6 @@ CMakeFiles/bluetooth_socket.dir/clean:
 .PHONY : CMakeFiles/bluetooth_socket.dir/clean
 
 CMakeFiles/bluetooth_socket.dir/depend:
-	cd /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bele/mqttsngit/bluetooth-socket /home/bele/mqttsngit/bluetooth-socket /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug /home/bele/mqttsngit/bluetooth-socket/cmake-build-debug/CMakeFiles/bluetooth_socket.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug /home/bele/mqttsngit/mqtt-sn-gateway/bluetooth-socket/cmake-build-debug/CMakeFiles/bluetooth_socket.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/bluetooth_socket.dir/depend
 
