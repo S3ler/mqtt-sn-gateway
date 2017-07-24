@@ -1,0 +1,348 @@
+bele@bele-desktop:~/mqttsngit/test-mqtt-sn-gateway$ sudo gdbserver --once localhost:8888 ./cmake-build-debug/runAll_Tests --gtest_filter=LinuxUdpGateway_Connect_Test.Connect_withminimumclientidsize_return_accepted:LinuxUdpGateway_Connect_Test/*.Connect_withminimumclientidsize_return_accepted:*/LinuxUdpGateway_Connect_Test.Connect_withminimumclientidsize_return_accepted/*:*/LinuxUdpGateway_Connect_Test/*.Connect_withminimumclientidsize_return_accepted --gtest_color=no
+Process ./cmake-build-debug/runAll_Tests created; pid = 11360
+Listening on port 8888
+Remote debugging from host 127.0.0.1
+Running main() from gtest_main.cc
+Note: Google Test filter = LinuxUdpGateway_Connect_Test.Connect_withminimumclientidsize_return_accepted:LinuxUdpGateway_Connect_Test/*.Connect_withminimumclientidsize_return_accepted:*/LinuxUdpGateway_Connect_Test.Connect_withminimumclientidsize_return_accepted/*:*/LinuxUdpGateway_Connect_Test/*.Connect_withminimumclientidsize_return_accepted
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from LinuxUdpGateway_Connect_Test
+[ RUN      ] LinuxUdpGateway_Connect_Test.Connect_withminimumclientidsize_return_accepted
+Detaching from process 11566
+Detaching from process 11573
+
+0: Linux MQTT-SN Gateway version 0.0.1a startingDetaching from process 11702
+Detaching from process 11704
+
+12: Persistent ready
+13: loading timeout check durationDetaching from process 11708
+
+15: loading advertise durationDetaching from process 11710
+LE Scan ...
+
+18: loading gateway idDetaching from process 11712
+
+32: loading Mqtt configurationDetaching from process 11715
+
+147: Mqtt configuration loadedDetaching from process 11719
+gdbserver: Corrupted shared library list: 0x917ee0 != 0x8c44a0
+
+220: loading Mqtt willDetaching from process 11721
+gdbserver: Corrupted shared library list: 0x8c05d0 != 0x917ee0
+
+333: Mqtt will incomplete missing:  willtopic willmessage willqos willretain
+334: MQTT connectedDetaching from process 11723
+gdbserver: Corrupted shared library list: 0x91bfb0 != 0x8c05d0
+Detaching from process 11727
+Detaching from process 11729
+onScanReceive: 13:71:DA:7D:1A:0
+Detaching from process 11731
+Attempting to connect to 00:1A:7D:DA:71:13
+Detaching from process 11735
+Detaching from process 11737
+Detaching from process 11739
+Detaching from process 11741
+Detaching from process 11743
+Detaching from process 11745
+Detaching from process 11747
+Detaching from process 11749
+Detaching from process 11751
+Detaching from process 11754
+Detaching from process 11756
+Detaching from process 11764
+Connection successful
+Detaching from process 11766
+Detaching from process 11768
+Detaching from process 11770
+handle: 0x0001, uuid: 00002800-0000-1000-8000-00805f9b34fb
+handle: 0x0002, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x0003, uuid: 00002a00-0000-1000-8000-00805f9b34fb
+handle: 0x0004, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x0005, uuid: 00002a01-0000-1000-8000-00805f9b34fb
+handle: 0x0006, uuid: 00002800-0000-1000-8000-00805f9b34fb
+handle: 0x0007, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x0008, uuid: 00002a05-0000-1000-8000-00805f9b34fb
+handle: 0x0009, uuid: 00002902-0000-1000-8000-00805f9b34fb
+handle: 0x000a, uuid: 00002801-0000-1000-8000-00805f9b34fb
+handle: 0x000b, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x000c, uuid: 6e400002-b5a3-f393-e0a9-e50e24dcca9e
+handle: 0x000d, uuid: 00002902-0000-1000-8000-00805f9b34fb
+handle: 0x000e, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x000f, uuid: 6e400003-b5a3-f393-e0a9-e50e24dcca9e
+handle: 0x0010, uuid: 00002900-0000-1000-8000-00805f9b34fb
+Detaching from process 11772
+Found all characteristics and CCCDsCharacteristic value/descriptor: 08 04 00 01 3c 00 4d 00 
+
+
+ Finally -- NUS Ready 
+LE Scan ...
+nus_rx_handle
+6869: New client connected from  from 19.113.218.125.26.0 as M (c0, d60)Detaching from process 11775
+Detaching from process 11777
+Detaching from process 11779
+Detaching from process 11781
+Detaching from process 11783
+Detaching from process 11785
+Detaching from process 11787
+ - SUCCESSDetaching from process 11789
+Detaching from process 11791
+Detaching from process 11793
+Detaching from process 11795
+Detaching from process 11797
+Detaching from process 11799
+Characteristic value was written successfully
+Detaching from process 11801
+Detaching from process 11803
+Detaching from process 11805
+Detaching from process 11807
+Detaching from process 11809
+Detaching from process 11811
+Detaching from process 11813
+Detaching from process 11815
+Detaching from process 11817
+Detaching from process 11819
+Detaching from process 11821
+Detaching from process 11823
+Detaching from process 11825
+Detaching from process 11827
+Detaching from process 11829
+Detaching from process 11831
+Detaching from process 11833
+Detaching from process 11835
+Detaching from process 11837
+Detaching from process 11839
+Detaching from process 11841
+Detaching from process 11843
+Detaching from process 11845
+Detaching from process 11847
+Detaching from process 11849
+Detaching from process 11851
+Detaching from process 11853
+Detaching from process 11855
+Detaching from process 11857
+Detaching from process 11859
+Detaching from process 11861
+Detaching from process 11863
+Detaching from process 11865
+Detaching from process 11867
+Detaching from process 11869
+Detaching from process 11871
+Detaching from process 11873
+Detaching from process 11875
+Detaching from process 11877
+Detaching from process 11879
+Detaching from process 11881
+Detaching from process 11883
+Detaching from process 11885
+Detaching from process 11887
+Detaching from process 11889
+Detaching from process 11891
+Detaching from process 11893
+Detaching from process 11895
+Detaching from process 11897
+Detaching from process 11899
+Detaching from process 11901
+Detaching from process 11903
+Detaching from process 11905
+Detaching from process 11907
+Detaching from process 11909
+Detaching from process 11911
+Detaching from process 11913
+Detaching from process 11915
+Detaching from process 11917
+Detaching from process 11919
+Detaching from process 11921
+Detaching from process 11923
+Detaching from process 11925
+Detaching from process 11927
+Detaching from process 11929
+Detaching from process 11931
+Detaching from process 11933
+Detaching from process 11935
+Detaching from process 11937
+Detaching from process 11939
+Detaching from process 11941
+Detaching from process 11943
+Detaching from process 11945
+Detaching from process 11947
+Detaching from process 11949
+Detaching from process 11951
+Detaching from process 11953
+Detaching from process 11955
+Detaching from process 11957
+Detaching from process 11959
+Detaching from process 11961
+Detaching from process 11963
+Detaching from process 11965
+Detaching from process 11967
+Detaching from process 11969
+Detaching from process 11971
+Detaching from process 11973
+Detaching from process 11975
+Detaching from process 11977
+Detaching from process 11979
+Detaching from process 11981
+Detaching from process 11983
+Detaching from process 11985
+Detaching from process 11987
+Detaching from process 11989
+Detaching from process 11991
+Detaching from process 11993
+Detaching from process 11995
+Detaching from process 11997
+Detaching from process 11999
+Detaching from process 12001
+Detaching from process 12003
+Detaching from process 12005
+Detaching from process 12007
+Detaching from process 12009
+Detaching from process 12011
+Detaching from process 12013
+Detaching from process 12015
+Detaching from process 12017
+Detaching from process 12019
+Detaching from process 12021
+Detaching from process 12023
+Detaching from process 12025
+Detaching from process 12027
+Detaching from process 12029
+Detaching from process 12031
+Detaching from process 12033
+Detaching from process 12035
+Detaching from process 12037
+Detaching from process 12039
+Detaching from process 12041
+Detaching from process 12043
+Detaching from process 12045
+Detaching from process 12047
+Detaching from process 12049
+Detaching from process 12051
+Detaching from process 12053
+Detaching from process 12055
+Detaching from process 12057
+Detaching from process 12059
+Detaching from process 12061
+Detaching from process 12063
+Detaching from process 12065
+Detaching from process 12067
+Detaching from process 12069
+Detaching from process 12071
+Detaching from process 12073
+Detaching from process 12075
+Detaching from process 12077
+Detaching from process 12079
+Detaching from process 12081
+Detaching from process 12083
+Detaching from process 12085
+Detaching from process 12087
+Detaching from process 12089
+Detaching from process 12091
+Detaching from process 12093
+Detaching from process 12095
+Detaching from process 12097
+Detaching from process 12099
+Detaching from process 12101
+Detaching from process 12103
+Detaching from process 12105
+Detaching from process 12107
+Detaching from process 12109
+Detaching from process 12111
+Detaching from process 12113
+Detaching from process 12115
+Detaching from process 12117
+Detaching from process 12119
+Detaching from process 12121
+Detaching from process 12123
+Detaching from process 12125
+Detaching from process 12127
+Detaching from process 12129
+Detaching from process 12131
+Detaching from process 12133
+Detaching from process 12135
+Detaching from process 12137
+Detaching from process 12139
+Detaching from process 12141
+Detaching from process 12143
+Detaching from process 12145
+Detaching from process 12147
+Detaching from process 12149
+Detaching from process 12151
+Detaching from process 12153
+Detaching from process 12155
+Detaching from process 12157
+Detaching from process 12159
+Detaching from process 12161
+Detaching from process 12163
+Detaching from process 12165
+Detaching from process 12167
+Detaching from process 12169
+Detaching from process 12171
+Detaching from process 12173
+Detaching from process 12175
+Detaching from process 12177
+Detaching from process 12179
+Detaching from process 12181
+Detaching from process 12183
+Detaching from process 12185
+Detaching from process 12187
+Detaching from process 12189
+Detaching from process 12191
+Detaching from process 12193
+Detaching from process 12195
+Detaching from process 12197
+Detaching from process 12199
+Detaching from process 12201
+Detaching from process 12203
+Detaching from process 12205
+Detaching from process 12207
+Detaching from process 12209
+Detaching from process 12211
+Detaching from process 12213
+Detaching from process 12215
+Detaching from process 12217
+Detaching from process 12219
+Detaching from process 12221
+Detaching from process 12223
+Detaching from process 12225
+Detaching from process 12227
+Detaching from process 12229
+Detaching from process 12231
+Detaching from process 12233
+Detaching from process 12235
+Detaching from process 12237
+Detaching from process 12239
+Detaching from process 12241
+Detaching from process 12243
+Detaching from process 12245
+Detaching from process 12247
+Detaching from process 12249
+Detaching from process 12251
+Detaching from process 12253
+Detaching from process 12255
+Detaching from process 12257
+Detaching from process 12259
+Detaching from process 12261
+Detaching from process 12263
+Detaching from process 12265
+Detaching from process 12267
+Detaching from process 12269
+Detaching from process 12271
+Detaching from process 12273
+Detaching from process 12275
+
+Detaching from process 12277
+Detaching from process 12279
+Detaching from process 12281
+Detaching from process 12283
+Detaching from process 12285
+Detaching from process 12287
+Detaching from process 12289
+[       OK ] LinuxUdpGateway_Connect_Test.Connect_withminimumclientidsize_return_accepted (25295 ms)
+[----------] 1 test from LinuxUdpGateway_Connect_Test (25295 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (25295 ms total)
+[  PASSED  ] 1 test.
+
+Child exited with status 0
+

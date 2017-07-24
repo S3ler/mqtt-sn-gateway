@@ -1,0 +1,56 @@
+bele@bele-desktop:~/mqttsngit/test-mqtt-sn-gateway$ sudo gdbserver --once localhost:8888 ./cmake-build-debug/runAll_Tests --gtest_filter=LinuxUdpGateway_Connect_Test.Connect_withminimumclientidsize_return_accepted:LinuxUdpGateway_Connect_Test/*.Connect_withminimumclientidsize_return_accepted:*/LinuxUdpGateway_Connect_Test.Connect_withminimumclientidsize_return_accepted/*:*/LinuxUdpGateway_Connect_Test/*.Connect_withminimumclientidsize_return_accepted --gtest_color=no
+Process ./cmake-build-debug/runAll_Tests created; pid = 11360
+Listening on port 8888
+Remote debugging from host 127.0.0.1
+Running main() from gtest_main.cc
+Note: Google Test filter = LinuxUdpGateway_Connect_Test.Connect_withminimumclientidsize_return_accepted:LinuxUdpGateway_Connect_Test/*.Connect_withminimumclientidsize_return_accepted:*/LinuxUdpGateway_Connect_Test.Connect_withminimumclientidsize_return_accepted/*:*/LinuxUdpGateway_Connect_Test/*.Connect_withminimumclientidsize_return_accepted
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from LinuxUdpGateway_Connect_Test
+[ RUN      ] LinuxUdpGateway_Connect_Test.Connect_withminimumclientidsize_return_accepted
+
+12: Persistent ready
+LE Scan ...
+
+gdbserver: Corrupted shared library list: 0x917ee0 != 0x8c44a0
+
+gdbserver: Corrupted shared library list: 0x8c05d0 != 0x917ee0
+
+333: Mqtt will incomplete missing:  willtopic willmessage willqos willretain
+gdbserver: Corrupted shared library list: 0x91bfb0 != 0x8c05d0
+onScanReceive: 13:71:DA:7D:1A:0
+Attempting to connect to 00:1A:7D:DA:71:13
+Connection successful
+handle: 0x0001, uuid: 00002800-0000-1000-8000-00805f9b34fb
+handle: 0x0002, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x0003, uuid: 00002a00-0000-1000-8000-00805f9b34fb
+handle: 0x0004, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x0005, uuid: 00002a01-0000-1000-8000-00805f9b34fb
+handle: 0x0006, uuid: 00002800-0000-1000-8000-00805f9b34fb
+handle: 0x0007, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x0008, uuid: 00002a05-0000-1000-8000-00805f9b34fb
+handle: 0x0009, uuid: 00002902-0000-1000-8000-00805f9b34fb
+handle: 0x000a, uuid: 00002801-0000-1000-8000-00805f9b34fb
+handle: 0x000b, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x000c, uuid: 6e400002-b5a3-f393-e0a9-e50e24dcca9e
+handle: 0x000d, uuid: 00002902-0000-1000-8000-00805f9b34fb
+handle: 0x000e, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x000f, uuid: 6e400003-b5a3-f393-e0a9-e50e24dcca9e
+handle: 0x0010, uuid: 00002900-0000-1000-8000-00805f9b34fb
+Found all characteristics and CCCDsCharacteristic value/descriptor: 08 04 00 01 3c 00 4d 00 
+
+
+ Finally -- NUS Ready 
+LE Scan ...
+nus_rx_handle
+Characteristic value was written successfully
+
+[       OK ] LinuxUdpGateway_Connect_Test.Connect_withminimumclientidsize_return_accepted (25295 ms)
+[----------] 1 test from LinuxUdpGateway_Connect_Test (25295 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (25295 ms total)
+[  PASSED  ] 1 test.
+
+Child exited with status 0
+
