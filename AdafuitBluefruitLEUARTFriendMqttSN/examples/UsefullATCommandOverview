@@ -1,4 +1,8 @@
 
+# Sending data via NUS
+AT+BLEUARTTX=THIS IS A TEST
+# Read out inputbuffer
+AT+BLEUARTRX
 
 start stop advertising
 AT+GAPSTARTADV
