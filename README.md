@@ -16,11 +16,11 @@ Depend on the stage of project you have already chosen your technologies and pla
 
 If not you may want to choose a platform and transmission technology first, by using the platform-transmition-technology chart:
 
-                  | Ethernet            | WiFi     | Bluetooth LE | ZigBee      | LoRa                        |
-ESP8266 (Arduino) | untested            | yes      | untested     | untested    | untested                    |
-Module            | Ethernet Shield V1  | SoC      | nRF51822     | XBee ZB S2C | SX1272 LoRa or Lora Shield  |
-Arduino MEGA 2560 | yes                 | unknown  | untested     | untested    | untested                    |
-Moduel            | Ethernet Shield V1  |          | nRF51822     | XBee ZB S2C | SX1272 LoRa or Lora Shield  |
+                      | Ethernet            | WiFi     | Bluetooth LE | ZigBee      | LoRa                        |
+    ESP8266 (Arduino) | untested            | yes      | untested     | untested    | untested                    |
+    Module            | Ethernet Shield V1  | SoC      | nRF51822     | XBee ZB S2C | SX1272 LoRa or Lora Shield  |
+    Arduino MEGA 2560 | yes                 | unknown  | untested     | untested    | untested                    |
+    Moduel            | Ethernet Shield V1  |          | nRF51822     | XBee ZB S2C | SX1272 LoRa or Lora Shield  |
 
 (please note: the chart show where the gateway can be executed with, mqtt-sn-client has it's a own project)
 unknown means: not tested or implemented, and most likely i will not implemented it due to missing hardware (e.g. too expensive)
