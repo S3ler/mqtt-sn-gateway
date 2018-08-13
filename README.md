@@ -1,6 +1,6 @@
 # mqtt-sn-gateway
-This is the main project for development of a mqtt-sn-gateway for low embedded devices.
-The target resource consumption is 2KB RAM for the core module (excluding the different platform based implementations).
+This is the main project for development of a mqtt-sn-gateway for low embedded devices. Client implementations can be found in the [linux-mqtt-sn-client](https://github.com/S3ler/linux-mqtt-sn-client) project.
+The targeted resource consumption is 2KB RAM for the core module (excluding the different platform based implementations).
 
 ## Why using a MQTT-SN?
 You may ask yourself: Why should i use MQTT-SN over basic MQTT, CoAP or HTTP (Rest)?
@@ -9,6 +9,45 @@ But these are only the points on the first sight for MQTT-SN.
 
 By using MQTT-SN in combination with MQTT we can provide homogeneous programming platform.
 For TCP/UDP based IoT devices with enough resources we can use MQTT, for non TCP/UDP based constrained IoT devices we can use MQTT-SN. The programming paradigm (publish-subscribe) and the architecture (centralized broker architecture) stays the same on both device types making it easy for developers to rapidly develop new products.
+
+## Supported Platforms
+We support Arduino and Linux as Platforms. Arduino is restricted to some models.
+
+### Arduino
+For Arduino we support the following Models:
+ * Arduino Mega
+ * ESP8266
+ * ESP32
+
+### Linux
+For Linux we support ARM and x86 architectures, especially the Raspberry Pi.
+
+## Supported Transmission Technologies
+We support a wide range of transmission technologies namely: Ethernet (UDP & TCP), WiFi (UDP & TCP), ZigBee, LoRa, BLE.
+Transmission Technologies depend on the used Hardware and thus on the platform supporting the needed Hardware.
+For more information use the Transmission Technology to Platform Matrix.
+
+### Transmission Technology to Platform Matrix
+|   	| UDP  	| TCP  	| Ethernet  	| WiFi  	| ZigBee  	| LoRa  	| BLE  	|
+|---	|---	|---	|---	|---	|---	|---	|---	|
+| Linux  	| &#x2705;  	| &#x274E;  	| &#x2705;  	| &#x2705;  	| &#x274C;  	| &#x274C;  	| &#x274C;  	|
+| Raspberry Pi  	| &#x2705;  	| &#x274E;  	| &#x2705;  	| &#x2705;  	| &#x274E;\*  	| &#x2705;\*  	| &#x274E;  	|
+| Arduino ESP8266\*\* 	| &#x274E;  	| &#x274E;  	| &#x274E;  	| &#x274E;  	| &#x274E;\*  	| &#x274E;\*  	| &#x274E;\*	|
+| Arduino ESP32\*\* 	| &#x274E;  	| &#x274E;  	| &#x274E;  	| &#x274E;  	| &#x274E;\*  	| &#x274E;\*  	| &#x274E;  	|
+| Arduino Mega\*\* 	| &#x274E;\*  	| &#x274E;  	| &#x274E;\*  	| &#x274C;  	| &#x274E;\*  	| &#x274E;\*  	| &#x274C;  	|
+
+\* needs additional transmission hardware
+\*\* needs additional storage for message queueing 
+
+##### Legend: 
+* &#x2705; implemented and tested
+* &#x274E; not implemented yet
+* &#x274C; will not be implemented
+
+## Getting Started
+The fastest way to start is with Linux - Use the [linux-mqtt-sn-gateway - getting started](https://github.com/S3ler/linux-mqtt-sn-gateway#getting-started---development).
+
+For Arduino mqtt-sn-gateway us the [arduino-mqtt-sn-gateway - getting started]().
 
 ## Supported Platforms and Technologies
 We try to provide implementations for a wide range of transmission technologies and platforms.
