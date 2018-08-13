@@ -45,6 +45,11 @@ For more information use the Transmission Technology to Platform Matrix.
 * &#x274C; will not be implemented
 
 ## Getting Started
+The easiest way to use the mqtt-sn-gateway is linux with either pre-built binaries or the Docker.
+TODO create pre-built binaries and link
+TODO create Docker-Container and upload to Docker-Hub
+
+### Development
 The fastest way to start is with Linux - Use the [linux-mqtt-sn-gateway - getting started](https://github.com/S3ler/linux-mqtt-sn-gateway#getting-started---development).
 
 For Arduino mqtt-sn-gateway us the [arduino-mqtt-sn-gateway - getting started]().
