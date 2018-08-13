@@ -1,4 +1,0 @@
-/home/bele/JetBrain/clion-2017.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests
--- Configuring done
--- Generating done
--- Build files have been written to: /home/bele/mqttsngit/mqtt-sn-gateway/bluez-tests/cmake-build-debug

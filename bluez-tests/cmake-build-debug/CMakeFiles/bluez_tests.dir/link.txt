@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/bluez_tests.dir/main.cpp.o  -o bluez_tests 

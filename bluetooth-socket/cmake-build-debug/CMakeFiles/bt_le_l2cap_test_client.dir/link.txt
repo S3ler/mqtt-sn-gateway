@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/bt_le_l2cap_test_client.dir/src/testclients/le_l2cap-client.cpp.o  -o bt_le_l2cap_test_client -lbluetooth 

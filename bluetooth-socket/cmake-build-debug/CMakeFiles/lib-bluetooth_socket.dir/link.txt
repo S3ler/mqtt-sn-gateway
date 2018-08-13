@@ -1,2 +1,0 @@
-/usr/bin/ar qc liblib-bluetooth_socket.a  CMakeFiles/lib-bluetooth_socket.dir/src/Implementation/LinuxBluetoothSocket.cpp.o
-/usr/bin/ranlib liblib-bluetooth_socket.a
