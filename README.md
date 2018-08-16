@@ -1,5 +1,6 @@
 # mqtt-sn-gateway
-This is the main project for development of a mqtt-sn-gateway for low embedded devices. Client implementations can be found in the [linux-mqtt-sn-client](https://github.com/S3ler/linux-mqtt-sn-client) project.
+This is the main project for development of a aggregating mqtt-sn-gateway for low embedded devices.
+Client implementations can be found in the [linux-mqtt-sn-client](https://github.com/S3ler/linux-mqtt-sn-client) or the [arduino-mqtt-sn-client](https://github.com/S3ler/arduino-mqtt-sn-client) projects.
 The targeted resource consumption is 2KB RAM for the core module (excluding the different platform based implementations).
 
 __This is only the front page for the mqtt-sn-gateway, containing pre-built binaries and Dockerfiles. For the [linux-mqtt-sn-gateway](https://github.com/S3ler/linux-mqtt-sn-gateway) and [arduino-mqtt-sn-gateway](https://github.com/S3ler/arduino-mqtt-sn-gateway) implementations go to the corresponding project or to [Getting Started](https://github.com/S3ler/mqtt-sn-gateway#getting-started).__
